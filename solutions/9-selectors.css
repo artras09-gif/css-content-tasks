@@ -8,7 +8,11 @@ body {
 }
 
 /* BEGIN (write your solution here) */
-
+h1,
+h2,
+h3 {
+  color: #212121;
+}
 /* END */
 
 .articles {
@@ -21,5 +25,29 @@ body {
 }
 
 /* BEGIN (write your solution here) */
+.articles h1 {
+  font-size: 2em;
+}
 
+.articles h2 {
+  font-size: 1.5em;
+}
+
+.articles h3 {
+  font-size: 1em;
+}
+
+.articles article {
+  border-top: 1px solid #e5e5e5;
+}
+
+.articles h3 + p {
+  padding: 20px;
+
+  color: #686868;
+  font-size: 0.8em;
+  text-align: right;
+
+  background: #f6f6f6;
+}
 /* END */
