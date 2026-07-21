@@ -19,5 +19,8 @@ body {
 }
 
 /* BEGIN (write your solution here) */
-
+.chessboard tr:nth-child(odd) td:nth-child(even),
+.chessboard tr:nth-child(even) td:nth-child(odd) {
+  background: #f1d9b5;
+}
 /* END */
