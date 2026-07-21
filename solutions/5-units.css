@@ -1,6 +1,10 @@
 html {
   /* BEGIN (write your solution here) */
-
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  color: #8a94a7;
+  background: #1d2026;
   /* END */
 }
 
@@ -10,7 +14,10 @@ body {
   justify-content: center;
 
   /* BEGIN (write your solution here) */
-
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   /* END */
 }
 
@@ -18,18 +25,46 @@ h1,
 h2,
 h3 {
   /* BEGIN (write your solution here) */
-
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   /* END */
 }
 
 ul {
   /* BEGIN (write your solution here) */
-
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   /* END */
 }
 
 /* BEGIN (write your solution here) */
+.card {
+  width: 300px;
+  padding: 2.5rem 2rem;
 
+  background: #2c3039;
+}
+
+.card-list {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.price span {
+  color: white;
+  font-size: 3em;
+}
+
+h3 {
+  color: white;
+  font-size: 0.9em;
+}
 /* END */
 
 .btn {
@@ -39,7 +74,7 @@ ul {
   color: white;
 
   /* BEGIN (write your solution here) */
-
+  font-size: 0.7rem;
   /* END */
 
   text-align: center;
